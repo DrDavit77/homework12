@@ -14,27 +14,21 @@
         <!-- header -->
         <header>
             <div class="main_logo">
-                <figure> <img src="img/logo plant.svg" alt=""></figure>
+                <figure><a href="index.html"><img src="img/logo plant.svg" alt=""></a></figure>
                 <p class="Header_Text">PLANT SHOP</p>
             </div>
 
 
-            <form class="" action="form1">
+            <form action="form1">
                 <div class="search_bar">
                     <div>
-                        <input class="header_search" type="text" id="question" name="search" placeholder="What are you looking for?">
+                        <input class="header_search" type="text" id="question" name="search"
+                            placeholder="What are you looking for?">
                     </div>
 
                     <button type="submit" class="search_button"><img src="img/charm_search.svg" alt=""></button>
                 </div>
             </form>
-
-
-
-
-
-
-
 
             <div class="login_buy">
                 <p class="login">LOG IN</p>
@@ -55,7 +49,78 @@
         <!-- section -->
         <section>
             <main>
+                <img class="section_cover" src="img/cover image.svg" alt="">
+                <div class="contact_us">
+                    <h2 class="section_head">CONTACT US</h2>
+                    <form action="form2">
+                        <div class="Fills">
+                            <input class="contact_us_fills" type="text" id="name" name="NAME" placeholder="Name?"
+                                required>
 
+                            <input class="contact_us_fills" type="email" name="email" id="mail" placeholder="Email"
+                                required>
+
+                        </div>
+                        <p class="fills_question">Is your question about an existing order?</p>
+                        <!-- select -->
+                        <select name="yesorno" id="">
+                            <option value="select" selected>Select</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+
+                        <p class="fills_question">I have a delivery question about my order</p>
+                        <!-- radio -->
+                        <div class="radio_box">
+
+                            <div class="radio">
+                                <input class="radio_circle" type="radio" id="I did not receive my order"
+                                    value="not receive" name="select_function" class="radio_text">
+                                <label class="radio_text" for="I did not receive my order">I did not receive my
+                                    order</label>
+                            </div>
+                            <div class="radio">
+                                <input class="radio_circle" type="radio" id="My order is incorrect or arrived damaged"
+                                    value="damaged" name="select_function">
+                                <label class="radio_text" for="My order is incorrect or arrived damaged">My order is
+                                    incorrect or arrived
+                                    damaged</label>
+                            </div>
+                            <div class="radio">
+                                <input class="radio_circle" type="radio" id="Cancel my order" value="cancel"
+                                    name="select_function">
+                                <label class="radio_text" for="Cancel my order">Cancel my order</label>
+                            </div>
+                            <div class="radio">
+                                <input class="radio_circle" type="radio" id="Change my shipping address" value="address"
+                                    name="select_function">
+                                <label class="radio_text" for="Change my shipping address">Change my shipping
+                                    address</label>
+                            </div>
+                        </div>
+
+                        <p class="fills_question">Please provide more details below.</p>
+                        <div class="text-area">
+                            <textarea name="" id="" placeholder="Message"></textarea>
+                        </div>
+                        <div class="checkbox">
+                            <input class="checkbox_input" type="checkbox" name="gettingnewsletter" value=" gettingnewsletter">
+
+                            <label class="checkbox_text" for="gettingnewsletter">I want to receive the newsletter
+                            </label>
+                        </div>
+
+
+                        <input class="submit_button" type="submit" value="SEND">
+
+                    </form>
+
+
+
+
+
+
+                </div>
             </main>
         </section>
 
