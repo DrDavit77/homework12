@@ -1,0 +1,53 @@
+@media (max-width: 600px) {
+
+    /* header */
+    header {
+        width: 100%;
+        padding: 34px 8px;
+
+    }
+
+    .search_bar {
+        display: none;
+    }
+
+    .login_buy {
+
+        width: 72px;
+        height: 32px;
+
+
+    }
+
+    .login {
+        display: none;
+
+    }
+
+    .vector_svg {
+        display: flex;
+    }
+
+    .shop {
+        width: 32px;
+        height: 32px;
+        padding: 8px;
+    }
+
+    /* navigaiton */
+
+    .mobile_style {
+        background: #01ACA9;
+        display: flex;
+        height: 64px;
+        padding: 16px 64px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 168px;
+        flex-shrink: 0;
+    }
+
+    ul {
+        display: none;
+    }
+}

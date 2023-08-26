@@ -71,7 +71,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    flex-shrink: 0;
+    
 }
 
 .login {
@@ -93,6 +93,18 @@ header {
 
 }
 
+.vector_svg {
+    display: none;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+}
+
 .shop {
     display: flex;
     width: 42px;
@@ -107,6 +119,16 @@ header {
 }
 
 /* navigation */
+
+.mobile_style {
+    display: none;
+    
+}
+
+.nav_icon {
+    width: 32px;
+    height: 32px;
+}
 
 ul {
     display: flex;
