@@ -104,4 +104,53 @@
         justify-content: center;
         align-items: center;
     }
+
+    /* footer */
+    footer{
+        padding: 48px 12px;
+        
+    }
+    .footer_first_row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .Description{
+        width: 325px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+
+    }
+
+    .descr_headtext{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Email_receive {
+        width: 325px;
+        justify-content: center;
+        align-items: center;
+        gap:0;
+    }
+
+    .follow_us{
+        width: 325px;
+        justify-content: center;
+        align-items: center;
+        gap:0;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+  
+    .Copyright{
+        display: flex;
+        justify-content: center;
+    }
 }
