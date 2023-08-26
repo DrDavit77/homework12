@@ -50,4 +50,58 @@
     ul {
         display: none;
     }
+
+    /* section */
+
+    .form2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .contact_us {
+        display: flex;
+        width: 332px;
+
+        padding: 48px 6px;
+        gap: 80px;
+
+    }
+
+    .section_head {
+
+        margin-bottom: 0;
+
+    }
+
+    .Fills {
+        width: 320px;
+        gap: 8px;
+
+    }
+
+    .contact_us_fills {
+        width: 156px;
+        padding: 11px 85px 11px 22px;
+
+        align-items: center;
+
+    }
+
+    textarea {
+
+        width: 320px;
+        height: 104px;
+
+    }
+
+    .submit_button {
+        width: 320px;
+        padding: 19px 0px;
+        justify-content: center;
+        align-items: center;
+    }
 }
